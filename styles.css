@@ -91,12 +91,14 @@ ul li {
     padding: 0;
 }
 
-.footer a {
-    display: block 
-}
 .pay{
     display: block;
     text-align: right;
     max-width: 1240px;
     margin: auto;
 }
+
+.footer a {
+    display: block 
+}
+
