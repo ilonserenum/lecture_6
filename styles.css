@@ -1,3 +1,12 @@
+@font-face {
+    font-family: "ubuntu";
+    src: url("fonts/Ubuntu/Ubuntu-Regular.ttf");
+}
+
+body {
+    margin: 0;
+}
+
 a {
     text-decoration: none;
     color: #FFFFFF;
@@ -23,9 +32,10 @@ ul li {
 
 .body {
     background-color: #DDEAF8;
-    
+    font-family: "Century Gothic";
 }
-.body h1{
+
+.body h1 {
     max-width: 1240px;
     margin: auto;
     padding: 94px 0 68px 0;
@@ -42,10 +52,11 @@ ul li {
 
 .nav a {
     text-decoration: none;
-    color: #27187F;
+    color: #758BFD;
     font-weight: 500;
     font-size: 24px;
-    
+    font-family: "ubuntu";
+
 }
 
 .nav {
@@ -56,16 +67,19 @@ ul li {
     align-items: center;
 }
 
+
 .nav li:nth-child(2) {
     margin: 0px 50px;
 }
 
 .nav input {
     margin: 52px 0px;
+    margin-right: 100px;
 }
 
 .footer {
     background: #758BFD;
+    font-family: "Century Gothic";
 
 }
 
@@ -78,20 +92,27 @@ ul li {
 
 .footer div div {
     display: block;
+    margin: 0;
 }
 
 .footer div div li {
     display: block;
 }
 
+.footer div div li {
+    font-size: 20px;
+    padding-bottom: 12px;
+}
+
 .footer div div:nth-child(1) li {
     display: inline-block;
 }
+
 .footer div div ul {
     padding: 0;
 }
 
-.pay{
+.pay {
     display: block;
     text-align: right;
     max-width: 1240px;
@@ -99,6 +120,64 @@ ul li {
 }
 
 .footer a {
-    display: block 
+    display: block
 }
 
+.footermenu a {
+    font-size: 13px;
+}
+
+h3 {
+    color: #00CAD7;
+    font-weight: 400;
+    font-size: 20px;
+    margin-top: 75px;
+    margin-bottom: 21px;
+}
+
+.footer-menus {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.pay {
+    margin: 0;
+    padding: 97px 75px;
+    ;
+}
+
+.active {
+    color: #27187F !important;
+}
+
+.search {
+    width: 221px;
+    height: 56px;
+    border-radius: 10px;
+    border-width: 3px;
+    border-color: #27187F;
+    border-style: solid;
+}
+
+
+
+.magnifier {
+    display: flex;
+}
+
+.magnifier img {
+    position: relative;
+    margin-left: -150px;
+}
+
+.socialmedia {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 12px;
+    margin-bottom: 105px;
+}
+
+.email {
+    font-size: 13px;
+}
